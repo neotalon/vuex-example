@@ -17,6 +17,9 @@ const store = new Vuex.Store({
 store.commit('increment');
 console.log(store.state.count);
 
+store.commit('increment');
+console.log(store.state.count);
+
 new Vue({
   render: h => h(App),
 }).$mount('#app')
